@@ -3,21 +3,14 @@
    Name: Raphael Puente 
    Id: 301075627 */
 
-
 (function(){
-
-
     
     function Start()
     {
         console.log('My app started...')
+            
 
-
-
-
-        
         //Applying nav-link active to all the navbar
-
 
         let title = document.title;
         title = title.toLowerCase();
@@ -35,17 +28,21 @@
             {
                 anchor.className = "nav-link active";   
             }
-
-
-
         }
 
+
+        // Text in my index page
+
+        let myGreeting = document.querySelectorAll("h1");
+
+        if (title === "home") 
+        {
+            console.log("nav-link active");   
+        }
 
 
     }
 
     window.addEventListener("load",Start);
-
-
 
 })();
