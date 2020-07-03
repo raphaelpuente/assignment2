@@ -1,7 +1,8 @@
 /* Description: IIFE - Immediately Invokes Function Expression
    File: Assignment2
    Name: Raphael Puente 
-   Id: 301075627 */
+   Id: 301075627 
+   Webpage: https://raphaelpuente.github.io/assignment2/index.html*/
 
 (function(){
     
@@ -57,17 +58,17 @@
 
             let projectsTable1 = document.getElementsByTagName("tr")[0];
             let projectOne = document.createElement("td");
-            projectOne.textContent = "In my previous job I was a buyer an negotiatior and I was in charge of the salty snacks category, which includes chips, nuts, popcorn and seeds. One of my most important projects was increasing the sales volume, and through the incorporation of regional suppliers, I was able to grow sales for more than 4% (which is a huge amount for a category as solid as salty snacks). Sorry I can't provide more information, I'm not supposed to show the data due confidenciality matters, but I promise it was harder than it sounds, but it was lots of fun!. You can learn more about OXXO by clicking in the picture.";
+            projectOne.textContent = "In my previous job I was a buyer an negotiatior and I was in charge of the salty snacks category, which includes chips, nuts, popcorn and seeds. One of my most important projects was increasing the sales volume, and through the incorporation of regional suppliers, I was able to grow sales for more than 4% (which is a huge amount for a category as solid as salty snacks). Sorry I can't provide more information, I'm not supposed to show the data due confidenciality matters, but I promise it was harder than it sounds, but it was lots of fun! You can learn more about OXXO by clicking in the picture.";
             projectsTable1.appendChild(projectOne);
 
             let projectsTable2 = document.getElementsByTagName("tr")[1];
             let projectTwo = document.createElement("td");
-            projectTwo.textContent = "When I first started to study this new carreer, I was unsure if I should become a web developer or what would be more suitable for me. As I progressed through the carreer, it's been clear to me that my marketing and design knowledge, could work okay if I become a web developer. I still have a really big road ahead of me, I have so much to learn, but I hold really dear the project I did for my web design class last semester. It feels like the seed of something big I expect to harvest soon. You can see my assignment by clicking in the picture in the left.";
+            projectTwo.textContent = "When I first started to study this new carreer, I was unsure if I should become a web developer or what would be more suitable for me. As I progressed through the carreer, it's been clear to me that my marketing and design knowledge, could work okay if I become a web developer. I still have a really big road ahead of me, I have so much to learn, but I hold really dear the project I did for my web design class last semester. It feels like it's the seed of something big I expect to harvest soon. You can see my assignment by clicking in the picture in the left.";
             projectsTable2.appendChild(projectTwo);
 
             let projectsTable3 = document.getElementsByTagName("tr")[2];
             let projectThree = document.createElement("td");
-            projectThree.textContent = "My third project is divided into two phases: First I need to say I am very fond to grammar and spelling, and I am actually really good at it (in Spanish, which is my native language, of course... I'm sorry if I have too many mistakes in English, I'm doing my best!) I took several courses to become a style corrector. And second, even though I never studied it, I also know a little bit about design. I know how to use Photoshop, Illustrator, and mostly, InDesign (I used Illustrator to create my logo, hope you liked it!). So I am proud of working as a free-lance style corrector and designer for several mexican companies that produce books. Libreria Beityala is one of my customers, you can visit their page through the link in the pic";
+            projectThree.textContent = "My third project is divided into two phases: First I need to say I am very fond to grammar and spelling, and I am actually really good at it (in Spanish, which is my native language, of course... I'm sorry if I have too many mistakes in English, I'm doing my best!) I took several courses to become a style corrector. And second, even though I never studied it, I also know a little bit about design. I know how to use Photoshop, Illustrator, and mostly, InDesign (I used Illustrator to create my logo, hope you liked it!). So I am proud of working as a free-lance style corrector and designer for several mexican companies that produce books. Libreria Beityala is one of my customers, you can visit their page through the link in the pic.";
             projectsTable3.appendChild(projectThree);
 
         }
